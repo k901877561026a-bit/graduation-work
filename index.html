@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salon broaden_top</title>
+    <meta name="description" content="吉川美南のsalon">
+
+    <!-- favicon ファイル形式によってtype属性が異なる -->
+    <link rel="icon" href="images/broaden_favicon.png" type="image/png">
+    <!-- reset css -->
+     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif+JP:wght@411&display=swap" rel="stylesheet">
+    <!-- my css -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- レイヤー名に合わせたクラス名。全体を覆う箱（親要素）を作ります。 -->
+    <main class="top-entry">
+        <a href="home.html" class="logo-link">
+            <img src="images/salon_broaden_logo.svg" alt="salon-broaden-logo" class="logo-img">
+        </a>
+    </main>
+
+    <script>
+        document.querySelector('.logo-link').addEventListener('click', function(e) {
+  e.preventDefault();
+
+  document.body.classList.add('fade-out');
+
+  setTimeout(() => {
+    window.location.href = this.href;
+  }, 1000);
+});
+    </script>
+
+</body>
+</html>

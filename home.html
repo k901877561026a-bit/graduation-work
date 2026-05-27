@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salon broaden_home</title>
+    <meta name="description" content="吉川美南のsalon">
+
+    <!-- favicon ファイル形式によってtype属性が異なる -->
+    <link rel="icon" href="images/broaden_favicon.png" type="image/png">
+    <!-- reset css -->
+     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <!-- jq plugin css -->
+     <link rel="stylesheet" href="css/slick.css">
+     <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- my css -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="home-header" id="home">
+        <nav class="ham-botann">
+            <a href="ham-home.html"><img src="images/ham_botann.svg" alt="hamボタン"></a>
+        </nav>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="column.html">COLUMN</a></li>
+                <li><a href="https://broaden-hair.com/calendar">CALENDAR</a></li>
+            </ul>
+        </nav>
+        <nav class="pc-header-menu">
+            <div class="pc-header-menu-left">
+                <ul>
+                    <li><a href="home.html#about" class="pc-header-about">ABOUT</a></li>
+                    <li><a href="home.html#gallery" class="pc-header-gallery">GALLERY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="home.html#salon" class="pc-header-salon">SALON</a></li>
+                    <li><a href="home.html#contact" class="pc-header-contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="pc-header-menu-right">
+                <ul>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="column.html">COLUMN</a></li>
+                    <li><a href="https://broaden-hair.com/calendar">CALENDAR</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="home-header-logo-house">
+            <h1>
+                <a href="index.html"><img src="images/broaden_logo_house.svg" alt="家ロゴ"></a>
+            </h1>            
+        </div>
+    </header>
+    
+    <section class="fv">
+        <div class="fv-house-bg">
+            <picture>
+                <source srcset="images/background_house_pc+_overlap+++.svg" media="(min-width: 1025px)">
+                <source srcset="images/background_house_tablet+_overlap.svg" media="(min-width: 768px) and (max-width: 1024px)">
+                <img src="images/background_house+_overlap.svg" alt="家背景とサロンタイトルロゴ重なり用">
+            </picture>
+        </div>
+    </section>
+
+    <main>
+        <section class="home-image">
+            <ul>
+                <li><img src="images/slide_img_2026-01.jpg" alt="タイトル下のイメージフォト-1"></li>
+                <li><img src="images/slide_img_2026-02.jpg" alt="タイトル下のイメージフォト-2"></li>
+                <li><img src="images/slide_img_2026-03.jpg" alt="タイトル下のイメージフォト-3"></li>
+                <li><img src="images/slide_img_2026-04.jpg" alt="タイトル下のイメージフォト-4"></li>
+                <li><img src="images/slide_img_2026-05.jpg" alt="タイトル下のイメージフォト-5"></li>
+                <li><img src="images/slide_img_2026-06.jpg" alt="タイトル下のイメージフォト-6"></li>
+                <li><img src="images/slide_img_2026-07.jpg" alt="タイトル下のイメージフォト-6"></li>
+                <li><img src="images/slide_img_2026-08.jpg" alt="タイトル下のイメージフォト-6"></li>
+                <li><img src="images/slide_img_2026-09.jpg" alt="タイトル下のイメージフォト-6"></li>
+            </ul>
+        </section>
+
+        <section class="ABOUT" id="about">
+            <div class="heading-ABOUT-group">
+                <div class="content-01-number">CONTENT 01</div>
+                <h2 class="heading-ABOUT">ABOUT</h2>
+            </div>
+            <h3 class="sub-heading-ABOUT">
+                <div>salon broaden</div>
+            </h3>
+            <P class="ABOUT-txt">
+                　“broaden”は【広げる・広がる】という意味を持ち、 音楽用語として譜面上で音の広がりを表したり、 視野を広げるなどの意味に用いられます。<br>
+                　salon broaden は美容室だけではなく 皆様が過ごす毎日の中で輝くヘアスタイルを創ること、 ヘアスタイルを通して、日々の楽しさや心地良さ、 可能性を【広げていく】ことを常に目指しています。</P>
+                
+            <h3 class="heading-stylist">
+                <div>stylist</div>
+            </h3>
+            <img src="images/stylist.jpg" alt="スタイリストフォト" class="stylist-img">
+            <div class="stylist-name">鈴木優子</div>
+            <p class="stylist-profile">
+                　美容師になってからもずっと変わらない想いがあります。<br>
+                　中学生だった頃。誰かがもう少し真剣に寝癖の直し方をあの頃の私に教えてくれていたら、私の人生はきっと少し違ったのに……。<br>
+                　そんな思い出から美容師が美容室で出来る事の他に、お客様がお家でヘアスタイルを楽しむ為に必要な知識をお伝えする事を大切にしたいと考えています。<br>
+                　ヘアスタイルが素敵になれば、きっと少し楽しくなります。<br>　そんな毎日を過ごして頂けますように。
+            </p>
+            <div class="stylist-career">
+                <span class="year">1987</span>
+                <span class="desc">兵庫県に生まれる</span>
+                <span class="year">2002</span>
+                <span class="desc">中学校を卒業し美容学校へ進学<br>15歳で美容の世界に入る</span>
+                <span class="year">2004</span>
+                <span class="desc">日本高等美容専門学校（BEAUTY ARTS KOBE）<br>卒業</span>
+                <span class="year">2013</span>
+                <span class="desc">伊丹、豊中、箕面の店舗にて美容師を続け<br>職歴10年目を機に上京を決意。</span>
+                <span class="year">2014</span>
+                <span class="desc">都内美容室にて勤務しつつ、大阪への出張美容を<br>続ける。</span>
+                <span class="year">2016</span>
+                <span class="desc">2月にhair salon broaden設立</span>
+                <span class="year">2018</span>
+                <span class="desc">資生堂SABFA サロンメーキャップコース65期卒業</span>
+                <span class="year">2023</span>
+                <span class="desc">10月にsalon broadenへ改名</span>
+            </div>
+        </section>
+                
+        <section class="GALLERY" id="gallery">
+            <div class="heading-GALLERY-group">
+                <div class="content-02-number">CONTENT 02</div>
+                <h2 class="heading-GALLERY">GALLERY</h2>
+            </div>
+            <ul>
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/gallery-1-pc.jpg">
+                    <img src="images/gallery-1.jpg" alt="ギャラリーフォト" class="GALLERY-img-1">
+                </picture>
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/gallery-2-pc.jpg">
+                    <img src="images/gallery-2.jpg" alt="ギャラリーフォト" class="GALLERY-img-2">
+                </picture>
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/gallery-3-pc.jpg">
+                    <img src="images/gallery-3.jpg" alt="ギャラリーフォト" class="GALLERY-img-3">
+                </picture>
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/gallery-4-pc.jpg">
+                    <img src="images/gallery-4.jpg" alt="ギャラリーフォト" class="GALLERY-img-4">
+                </picture>
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/gallery-5-pc.jpg">
+                    <img src="images/gallery-5.jpg" alt="ギャラリーフォト" class="GALLERY-img-5">
+                </picture>
+            </ul>
+        </section>
+
+        <section class="SALON" id="salon">
+            <div class="heading-SALON-group">
+                <div class="content-03-number">CONTENT 03</div>
+                <h2 class="heading-SALON">SALON</h2>
+            </div>
+
+            <div class="salon-wrapper salon-txt-pc">
+                <p class="SALON-txt"><span class="SALON-txt-address">〒342-0038 埼玉県吉川市美南4-7-15 西棟1F</span><span class="address-after-br"><br></span><a href="https://www.google.co.jp/maps/place/%E3%80%92342-0038+%E5%9F%BC%E7%8E%89%E7%9C%8C%E5%90%89%E5%B7%9D%E5%B8%82%E7%BE%8E%E5%8D%97%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%97%E2%88%92%EF%BC%91%EF%BC%95/@35.8646088,139.8499456,16.94z/data=!4m6!3m5!1s0x601890ab7b325a83:0xf6c5f9bcc4a779fc!8m2!3d35.8647138!4d139.8500252!16s%2Fg%2F11c6t73f61?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D" class="SALON-map-link">Google map</a>　を見る<br>OPEN：完全予約制<br>CLOSE：不定休　Calendarにてご確認ください<br><span class="SALON-txt-Annotation">※ヘアケア剤のみの購入も可能です。事前にご連絡頂き、お越しください</span>
+                <span class="SALON-txt-parking">駐車場：約4台（千成亭と共同利用です。満車の際はLINEにご連絡ください）</span>決済方法：現金 / 各種キャッシュレス決済<br>e-mail：info@broaden-hair.com</p>
+
+                <div class="salon-img">
+                    <img src="images/salon-information_image03.jpg" alt="SALON外観" class="SALON-exterior">
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+    <section class="CONTACT" id="contact">
+        <div class="heading-CONTACT-group">
+            <h2 class="heading-CONTACT">CONTACT</h2>
+        </div>
+        <div class="CONTACT-txt">
+            <div class="three-sidebyside">
+                <p class="CONTACT-txt-1-3-sidebyside">・ご予約はLINE・Eメールにて承っております。</p>
+                <p class="CONTACT-txt-2-3-sidebyside">・calendarに記載されている予約受付日から、<br>翌月の予約が可能となります。</p>
+                <div class="line-mail-calendar-icon-3-sidebyside">
+                    <div class="lineicon-txt">
+                        <a href="https://page.line.me/755dhost?openQrModal=true"><img src="images/LINE_logo.png" alt="lineアイコン" class="lineicon-3-sidebyside"></a>
+                        <p class="linetxt">友達登録をすると<br>予約受付日のお知らせが届きます</p>
+                    </div>
+                    <div class="mailicon-txt">
+                        <a href="mailto:info@broaden-hair.com"><img src="images/mail_icon.svg" alt="mailアイコン" class="mailicon-3-sidebyside"></a>
+                        <p class="mailtxt">@broaden-hair.comを<br>受信可能にしてください</p>
+                    </div>
+                    <div class="calendaricon-txt">
+                        <a href="https://broaden-hair.com/calendar"><img src="images/calendar_icon.svg" alt="calendarアイコン" class="calendaricon-3-sidebyside"></a>
+                        <div class="calendartxt-br">空き状況確認用です。 <br>ご予約はLINEかEメールへ</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="line-mail-group">
+                <p class="CONTACT-txt-1">・ご予約はLINE・Eメールにて承っております。</p>
+                <div class="line-mail-icon-sidebyside">
+                    <div class="lineicon-txt">
+                        <a href="https://page.line.me/755dhost?openQrModal=true"><img src="images/LINE_logo.png" alt="lineアイコン" class="lineicon"></a>
+                        <p class="linetxt">友達登録をすると予約受付日<br>のお知らせが届きます</p>
+                    </div>
+                    <div class="mailicon-txt">
+                        <a href="mailto:info@broaden-hair.com"><img src="images/mail_icon.svg" alt="mailアイコン" class="mailicon"></a>
+                        <p class="mailtxt">@broaden-hair.comを<br>受信可能にしてください</p>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar-group">
+                <p class="CONTACT-txt-2">・calendarに記載されている予約受付日から、<br>翌月の予約が可能となります。</p>
+                <div class="calendaricon-txt">
+                    <a href="https://broaden-hair.com/calendar"><img src="images/calendar_icon.svg" alt="calendarアイコン" class="calendaricon"></a>
+                    <div class="calendartxt">空き状況確認用です。ご予約はLINEかEメールへ</div>
+                </div>
+            </div>
+
+            <p class="CONTACT-txt-3">・急なキャンセルはご遠慮いただきますよう、ご協力お願い致します。</p>
+            <p class="CONTACT-txt-4">・メニューの一部をキャンセルする場合も、必ず事前にお知らせください。</p>
+        </div>
+        <div class="facebook-insta-sidebyside">
+            <a href="https://www.facebook.com/people/Salon-broaden-%E3%82%B5%E3%83%AD%E3%83%B3%E3%83%96%E3%83%AD%E3%83%BC%E3%83%87%E3%83%B3/100054597092831/?fref=ts#"><img src="images/facebook_logo.png" alt="フェイスブック" class="facebookicon"></a>
+            <a href="https://www.instagram.com/broaden_yuko/"><img src="images/insta_logo.png" alt="インスタ" class="Instagramicon"></a>
+        </div>
+    </section>
+
+    <footer class="common-footer">
+        <div class="icon_tothetop">
+            <div></div>
+            <img src="images/salon_broaden_logo.svg" alt="" class="footer-icon">
+            <img src="images/to_the_top.svg" alt="" class="to_the_top">
+        </div>
+        <div class="credit_address">
+            <div class="credit">Copyright©broaden All Rights Reserved.</div>
+            <div class="salon-address">〒342-0038 埼玉県吉川市美南4-7-15 西棟1F</div>
+            <div></div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!-- plugin -->
+     <script src="js/slick.min.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.home-header');
+            if (window.scrollY > 15) {
+            header.classList.add('is-scrolled'); // これでCSSの .is-scrolled が有効になる
+            } else {
+                header.classList.remove('is-scrolled'); // 上に戻ったら無効にする
+            }
+            });
+        
+        $('.icon_tothetop img').click(function() {
+            $('html, body').animate({scrollTop:0
+            } ,500);
+        });
+
+
+// 1. スクロールでヘッダーを出す処理
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.home-header');
+    if (window.scrollY > 15) {
+        header.classList.add('is-scrolled');
+    } else {
+        header.classList.remove('is-scrolled');
+    }
+});
+
+// 2. メニューをクリック・タップしたときにズレをなくす処理（★フワッと移動版）
+$('a[href^="#"]').click(function(e) {
+    e.preventDefault();
+    const target = $(this.hash);
+    
+    if (target.length) {
+        var headerHeight = 0;
+        var windowWidth = window.innerWidth;
+
+        if (windowWidth >= 1025) {
+            headerHeight = 115; // PC用
+        } else if (windowWidth >= 768) {
+            headerHeight = 170; // タブレット用
+        } else {
+            headerHeight = 150; // スマホ用
+        }
+        
+        const targetPosition = target.offset().top - headerHeight;
+        
+        // 【修正】window.scrollTo の正しい書き方（一瞬でワープ）
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'auto'
+        });
+    }
+});
+
+// 3. トップへ戻るボタンの処理
+$('.icon_tothetop img').click(function() {
+    // 【修正】最上部へ一瞬でワープ
+    window.scrollTo({
+        top: 0,
+        behavior: 'auto'
+    });
+});
+
+// 4. 📦 別ページ（hamページなど）からURLに「#」付きで戻ってきたときのズレ対策（超・完全安全版）
+$(window).on('load', function() {
+    if (window.location.hash) {
+        var hash = window.location.hash;
+        var target = $(hash);
+
+        if (target.length) {
+            // 💡 ページが100%読み込まれた後、ブラウザがレイアウトを組み立てる時間を「0.1秒」だけ待ちます
+            setTimeout(function() {
+                var headerHeight = 0;
+                var windowWidth = window.innerWidth;
+
+                // 画面幅に応じたヘッダーの高さを計算
+                if (windowWidth >= 1025) {
+                    headerHeight = 115;
+                } else if (windowWidth >= 768) {
+                    headerHeight = 170;
+                } else {
+                    headerHeight = 150;
+                }
+                
+                var targetPosition = target.offset().top - headerHeight;
+
+                // 一瞬で正しい位置にワープ
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'auto'
+                });
+            }, 100); // 💡 100ミリ秒（0.1秒）だけ待つのが、様々な環境でズレを防ぐベストな設定です
+        }
+    }
+});
+
+
+
+        $(document).ready(function(){
+            $('.home-image ul').slick(
+                {
+                    autoplay:true,
+                    autoplaySpeed:3000,
+                    speed:2000,
+                    dots:false,
+                    fade:true,
+                    arrows:false,
+                }
+            );
+        });//document ready
+
+
+        $(document).ready(function(){
+            $('.GALLERY ul').slick(
+                {
+                    autoplay:true,
+                    autoplaySpeed:3000,
+                    speed:2000,
+                    dots:true,
+                    fade:true,
+                    arrows:false,
+                }
+            );
+        });//document ready
+
+        $('#gallery ul').slick({
+  // ==========================================
+  // ① PC用（1025px以上）の設定
+  // ==========================================
+  autoplay: true,         
+  autoplaySpeed: 3000,    
+  speed: 500,             
+  infinite: true,         
+  pauseOnHover: false,    
+  pauseOnFocus: false,    
+  pauseOnDotsHover: false,
+  arrows: false,           
+  dots: true,             
+  centerMode: true,       // センターモードを有効
+  centerPadding: '19%',   // ★左右に19%ずつハミ出させる（中央は自動的に60%になる）
+  slidesToShow: 1,        // ★1枚表示にする
+  slidesToScroll: 1,
+
+  // ==========================================
+  // ② モバイル・タブレット用（1024px以下）の設定
+  // ==========================================
+  responsive: [
+    {
+      breakpoint: 1025, 
+      settings: {
+        autoplay: true,      
+        autoplaySpeed: 3000, 
+        infinite: true,      
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        pauseOnDotsHover: false,
+        centerMode: false,   
+        centerPadding: '0px',
+        slidesToShow: 1,     
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+      }
+    }
+  ]
+});
+
+
+    </script>
+</body>
+</html>
